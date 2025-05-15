@@ -2,12 +2,15 @@
 
 This repository contains the configuration files for the **AUTOSAR Port Driver** designed for the TIVA-C Cortex M4 (TM4C123GH6PM) microcontroller. It follows AUTOSAR MCAL standards and provides both **pre-compile** and **post-build** configuration support.
 
-## 📁 Project Structure
+##  Project Structure
 
-├── Port.h               # Main Port driver header file
-├── Port_Cfg.h           # Configuration header file (Pre-compile options)
-├── Port_PBcfg.c         # Post-build configuration source file
-├── Dio_Cfg.h            # DIO module config (referenced for pin definitions)
+```
+├── Port.h           # Main Port driver header file
+├── Port_Cfg.h       # Configuration header file (Pre-compile options)
+├── Port_PBcfg.c     # Post-build configuration source file
+├── Dio_Cfg.h        # DIO module config (referenced for pin definitions)
+```
+
 
 
 ##  Features
